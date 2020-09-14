@@ -1,5 +1,16 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-  std::cout << "Hello World!\n";
+ int a;
+ int b;
+ int c;
+ cout << "enter a ";
+ cin >> a;
+ cout << "enter b ";
+ cin >> b;
+c = a;
+a = b;
+b = c;
+cout << " a = " << a;
+cout << " b = " << b;
 }
