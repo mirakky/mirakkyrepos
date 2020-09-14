@@ -8,9 +8,10 @@ int main() {
  cin >> a;
  cout << "enter b ";
  cin >> b;
-c = a;
-a = b;
-b = c;
+ a = a+b;
+ b = b-a;
+ b = -b;
+ a = a-b;
 cout << " a = " << a;
 cout << " b = " << b;
 }
